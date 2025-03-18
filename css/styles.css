@@ -41,6 +41,8 @@ header {
 
     .address-link {
         list-style: none;
+        display: flex;
+        gap: 40px;
     }
 
     .address .link:hover {
@@ -238,6 +240,7 @@ header {
         background-color: #2E2F42;
         color: #F4F4FD;
         padding: 100px 0;
+        display: inline-block;
     }
 
     .logo {
